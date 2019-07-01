@@ -21,7 +21,7 @@ import org.springframework.context.annotation.PropertySource;
 
 /**
  *
- * @author lisbet
+ * @author carlos
  */
 @SpringBootApplication
 @PropertySource({"application.properties"})

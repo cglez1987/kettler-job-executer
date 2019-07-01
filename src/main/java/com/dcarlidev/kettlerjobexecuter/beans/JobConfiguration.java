@@ -10,7 +10,7 @@ import javax.validation.constraints.NotNull;
 
 /**
  *
- * @author lisbet
+ * @author carlos
  */
 public class JobConfiguration {
 
