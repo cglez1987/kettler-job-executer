@@ -17,12 +17,14 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.PropertySource;
 
 /**
  *
  * @author lisbet
  */
 @SpringBootApplication
+@PropertySource({"application.properties"})
 public class KettlerJobExecutor {
 
     public static void main(String[] args) {
